@@ -14,7 +14,3 @@ for i in range(num_dice):
 # Print the result
 print("The total sum of the dice is:", total)
 
-
-
-
-
