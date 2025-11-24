@@ -50,7 +50,7 @@ class Building:
         elevator.go_to_floor(destination_floor)
 
     def fire_alarm(self):
-        print("\n🔥 FIRE ALARM ACTIVATED! All elevators returning to bottom floor...\n")
+        print("\n FIRE ALARM ACTIVATED! All elevators returning to bottom floor...\n")
         for i, elevator in enumerate(self.elevators, start=1):
             print(f"Sending elevator {i} to bottom floor...")
             elevator.go_to_floor(self.bottom_floor)
@@ -65,5 +65,5 @@ if __name__ == "__main__":
     b.run_elevator(1, 7)
     b.run_elevator(2, 3)
 
-    # Trigger fire alarm
+
     b.fire_alarm()
