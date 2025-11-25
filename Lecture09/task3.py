@@ -65,5 +65,5 @@ if __name__ == "__main__":
     b.run_elevator(1, 7)
     b.run_elevator(2, 3)
 
-
+    # Trigger fire alarm
     b.fire_alarm()
